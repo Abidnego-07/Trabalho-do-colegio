@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabalho Acadêmico — Movimento Estudantil</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
+      color: #e5e5e5;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px 50px;
+      background: linear-gradient(90deg, #111, #222);
+      border-bottom: 2px solid #caa851;
+    }
+
+    header h1 {
+      color: #caa851;
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      color: #fff;
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #caa851;
+      color: #111;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e0bf6e;
+      transform: scale(1.05);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    section h3 {
+      color: #caa851;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      border-left: 5px solid #caa851;
+      padding-left: 10px;
+    }
+
+    section p {
+      color: #dcdcdc;
+      font-size: 1rem;
+      text-align: justify;
+      margin-bottom: 25px;
+    }
+
+    .autor-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .autor {
+      background: #111;
+      border: 1px solid #caa851;
+      border-radius: 12px;
+      padding: 20px;
+      flex: 1 1 250px;
+      max-width: 280px;
+      text-align: center;
+    }
+
+    .autor h4 {
+      color: #caa851;
+      margin-bottom: 8px;
+    }
+
+    .ref-list p {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 2px solid #caa851;
+      background: #111;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      header h2 {
+        font-size: 1rem;
+      }
+
+      .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+      }
+
+      section h3 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Seminário Acadêmico — História e Sociedade</h1>
+    <h2>Tema: O Movimento Estudantil e sua Influência na Sociedade Brasileira</h2>
+    <!-- Botão que leva diretamente ao slide -->
+    <a id="newTabBtn" class="btn btn-newtab" role="button"
+      href="https://1drv.ms/p/c/d74d888fc4e94ca0/Ed61u_DG4TBMqIc0XsBQSC4BNOTePc9Ty0TzQiF0jfw7hA?e=IeFPee"
+      target="_blank" rel="noopener noreferrer">
+      ↗ Abrir Apresentação
+    </a>
+  </header>
+
+  <section id="resumo">
+    <h3>Resumo</h3>
+    <p>O Movimento Estudantil brasileiro tem desempenhado, ao longo das décadas, um papel fundamental na construção da cidadania e na defesa da democracia. 
+    Desde o início do século XX, os estudantes se organizaram em entidades como a UNE e a UBES, buscando representar a juventude e lutar por educação pública, gratuita e de qualidade. 
+    Este trabalho analisa as principais fases do movimento, suas conquistas, desafios e o impacto que exerceu nas transformações políticas e sociais do país, especialmente durante períodos de autoritarismo e redemocratização.</p>
+  </section>
+
+  <section id="objetivos">
+    <h3>Objetivos</h3>
+    <p>O presente estudo tem como objetivo compreender a trajetória histórica do Movimento Estudantil no Brasil, identificando seus principais marcos, lideranças e formas de organização. 
+    Busca também refletir sobre sua importância como instrumento de mobilização social e política, analisando como suas pautas evoluíram conforme as mudanças do contexto histórico e educacional brasileiro.</p>
+  </section>
+
+  <section id="autores">
+    <h3>Autores e Orientadores</h3>
+    <div class="autor-list">
+      <div class="autor">
+        <h4>Wellington Abidnego</h4>
+        <p>Pesquisador responsável pela contextualização histórica e estrutura da apresentação.</p>
+      </div>
+      <div class="autor">
+        <h4>Samara Silva</h4>
+        <p>Coautora responsável pela análise sociopolítica e revisão textual.</p>
+      </div>
+      <div class="autor">
+        <h4>Prof. Paulinho</h4>
+        <p>Orientador — Departamento de História e Ciências Sociais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="referencias">
+    <h3>Referências Bibliográficas</h3>
+    <div class="ref-list">
+      <p>• Aquino, R. (2010). <em>O Movimento Estudantil e a Construção da Cidadania no Brasil</em>. São Paulo: Cortez.</p>
+      <p>• Alves, M. H. M. (1984). <em>Estado e Oposição no Brasil (1964–1984)</em>. Rio de Janeiro: Vozes.</p>
+      <p>• Chauí, M. (2000). <em>Cultura e Democracia: o Discurso Competente e Outras Falas</em>. São Paulo: Moderna.</p>
+      <p>• Picanço, F. (2017). <em>Juventude, Política e Universidade: A Atuação do Movimento Estudantil no Século XXI</em>. Editora UFRJ.</p>
+      <p>• União Nacional dos Estudantes (UNE). (2020). <em>Histórico de Lutas e Conquistas do Movimento Estudantil Brasileiro</em>. Disponível em: www.une.org.br</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Trabalho Acadêmico — História e Sociedade © 2025 | Desenvolvido por Wellington Abidnego</p>
+  </footer>
+</body>
+</html>
